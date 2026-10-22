@@ -9,16 +9,14 @@ q0 = q0
 
 
 
-+-----------------+-----------+-----------+-----------+
-| Current State   |    a/λ    |    */λ,   |    //λ,   |
-+-----------------+-----------+-----------+-----------+
-| -> q0 (Start)   |  qE / 0   |  qE / 0   |  q1 / 0   |
-|    q1           |  qE / 0   |  q2 / 0   |  qE / 0   |
-|    q2           |  q2 / 0   |  q3 / 0   |  q2 / 0   |
-|    q3           |  q2 / 0   |  q3 / 0   |  q4 / 1   |
-|    q4 (Complete)|  qE / 0   |  qE / 0   |  qE / 0   |
-|    qE (Trap)    |  qE / 0   |  qE / 0   |  qE / 0   |
-+-----------------+-----------+-----------+-----------+
+| Current State | Input `a` | Input `*` | Input `/` |
+| :--- | :--- | :--- | :--- |
+| **-> q0 (Start)** | qE / 0 | qE / 0 | q1 / 0 |
+| **q1** | qE / 0 | q2 / 0 | qE / 0 |
+| **q2** | q2 / 0 | q3 / 0 | q2 / 0 |
+| **q3** | q2 / 0 | q3 / 0 | q4 / 1 |
+| **q4 (Complete)** | qE / 0 | qE / 0 | qE / 0 |
+| **qE (Trap)** | qE / 0 | qE / 0 | qE / 0 |
 
 
 <img width="737" height="181" alt="image" src="https://github.com/user-attachments/assets/68e2d70a-fd88-45a6-8497-e995185eddfe" />
